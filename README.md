@@ -8,3 +8,24 @@ Objective of this project is to implement Distance Vector Routing Algorithm. Pro
 Programming Language: Java Key methodology: Multi-threading, synchronization, locks, Java Collections
 
 This is sample project with six router scenario. There can be any number of router. Algorithm read topology from an input file called "default.txt". You can create your topology and save it in default.txt and calculate the path.
+
+Instruction:
+
+Build the project using build.xml file
+
+Prerequisite:
+Apache Ant
+Java JDK
+
+Run the file using command
+ant build.xml
+
+Run Java Project:
+
+Ant build will generate dvralgo.jar in project directory.
+
+Run jar file using command
+java -jar dvralgo.jar
+
+
+For more information on project please read project_des.pdf file
